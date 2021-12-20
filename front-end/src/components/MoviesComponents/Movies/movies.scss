@@ -1,0 +1,31 @@
+.movie-list {
+  display: grid;
+  grid-column: center-start / center-end;
+
+  h1 {
+    text-decoration: underline;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0;
+    background-color: var(--mainWhite);
+
+    @media screen and (max-width: 500px) {
+      padding: 0 0.3rem;
+    }
+  }
+
+  @media screen and (max-width: 1220px) {
+    grid-column: full-start / full-end;
+  }
+
+  @media screen and (min-width: 320px) {
+    .container.movie-type h1 {
+      font-size: 1.6rem;
+      color: rgb(51, 51, 51);
+    }
+  }
+}

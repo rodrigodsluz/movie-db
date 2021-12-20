@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es6"
+    ],
+    // "allowJs": true,
+    "outDir": "build",
+    "rootDir": "./",
+    // "rootDirs": [
+    //   "src",
+    //   "./jest.config.ts"
+    // ],
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    // "typeRoots": [
+    //   "./src/@types"
+    // ],
+    "esModuleInterop": true,
+    // "noImplicitAny": true,
+    // "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+}

@@ -1,0 +1,15 @@
+.nav-btn {
+  color: rgb(27, 27, 27);
+  border: 2px solid black;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.6rem;
+  transition: all 0.4s;
+  font-size: 1.1rem;
+  width: 15rem;
+  text-align: center;
+  margin: 0 5px;
+
+  &:hover {
+    background-color: var(--lightGreen);
+  }
+}

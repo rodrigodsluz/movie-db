@@ -1,0 +1,27 @@
+.movie-overview {
+  grid-column: center-start / center-end;
+  background-color: var(--mainWhite);
+  padding: 2rem 6rem;
+  text-align: center;
+  border-bottom: 2px solid black;
+
+  h1 {
+    font-size: 1.8rem;
+    color: #333;
+    text-decoration: underline;
+  }
+
+  &__text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+
+    @media (max-width: 500px) {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 1220px) {
+    grid-column: full-start / full-end;
+    padding: 2rem;
+  }
+}
